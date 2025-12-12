@@ -28,7 +28,7 @@ export default function Hero({ title, subtitle, cta }) {
         <div className="flex-1">
           <div className="rounded-xl shadow-lg overflow-hidden border border-gray-200">
             <img
-              src="/images/hero-fabrics.jpeg"
+              src="/images/hero-fabrics.jpg"
               alt="Premium Fabrics"
               className="w-full h-80 object-cover"
             />
