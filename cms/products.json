@@ -1,0 +1,29 @@
+[
+  {
+    "id": "curtains",
+    "title": "Curtain Fabrics",
+    "items": [
+      {
+        "id": "p1",
+        "title": "Premium Linen",
+        "image": "/images/fab-1.jpg"
+      },
+      {
+        "id": "p2",
+        "title": "Velvet Supreme",
+        "image": "/images/fab-2.jpg"
+      }
+    ]
+  },
+  {
+    "id": "sofa",
+    "title": "Sofa Fabrics",
+    "items": [
+      {
+        "id": "s1",
+        "title": "Duratex",
+        "image": "/images/fab-4.jpg"
+      }
+    ]
+  }
+]

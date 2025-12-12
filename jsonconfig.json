@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@cms/*": ["cms/*"],
+      "@components/*": ["components/*"]
+    }
+  }
+}

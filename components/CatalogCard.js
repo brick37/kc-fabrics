@@ -1,0 +1,1 @@
+export default function CatalogCard({catalog}){ return (<a href={`/catalogs/${catalog.id}`} className="card overflow-hidden block"><img src={catalog.cover} alt={catalog.title} className="w-full h-44 object-cover"/><div className="p-4"><h4 className="font-semibold">{catalog.title}</h4><p className="text-sm text-gray-600 mt-1">{catalog.description}</p></div></a>) }

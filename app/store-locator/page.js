@@ -1,0 +1,3 @@
+import SeoHead from '../../components/SeoHead'
+import stores from '../../cms/stores.json'
+export default function StoreLocator(){ return (<><SeoHead title="Store Locator" /><section className="section"><div className="container"><h2 className="text-2xl font-semibold">Store Locator</h2><div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6"><div className="card p-4"><h4 className="font-semibold">Our Stores</h4><ul className="mt-3 space-y-3 text-sm">{stores.map(s=> <li key={s.id}><div className="font-medium">{s.name}</div><div className="text-gray-600">{s.address}</div></li>)}</ul></div><div className="card p-4">Map placeholder - integrate Google Maps JS API in production</div></div></div></section></>) }

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "mumbai",
+    "name": "KC Fabrics - Mumbai",
+    "address": "123 Textile Rd, Mumbai",
+    "lat": 19.076,
+    "lng": 72.8777
+  },
+  {
+    "id": "delhi",
+    "name": "KC Fabrics - Delhi",
+    "address": "85 Fabrics Lane, Delhi",
+    "lat": 28.7041,
+    "lng": 77.1025
+  }
+]
