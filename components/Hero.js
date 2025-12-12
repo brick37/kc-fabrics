@@ -1,1 +1,41 @@
-export default function Hero({title, subtitle, cta}){ return (<section className="section"><div className="container md:flex items-center gap-8"><div className="flex-1"><h1 className="text-4xl font-bold">{title}</h1><p className="mt-4 text-gray-600 max-w-xl">{subtitle}</p>{cta && <div className="mt-6"><a href={cta.href} className="px-6 py-3 bg-primary text-white rounded">{cta.label}</a></div>}</div><div className="flex-1"><div className="card p-4"><img src="/images/hero-fabrics.jpg" className="w-full h-64 object-cover rounded"/></div></div></div></section>) }
+export default function Hero({ title, subtitle, cta }) {
+  return (
+    <section className="section py-16">
+      <div className="container mx-auto md:flex items-center gap-12">
+        
+        <div className="flex-1">
+          <h1 className="text-5xl font-bold leading-tight text-gray-900">
+            {title}
+          </h1>
+
+          <p className="mt-6 text-lg text-gray-600 max-w-xl">
+            {subtitle}
+          </p>
+
+          {cta && (
+            <div className="mt-8">
+              <a
+                href={cta.href}
+                className="px-8 py-4 bg-primary text-white rounded-lg shadow hover:bg-primary/90"
+              >
+                {cta.label}
+              </a>
+            </div>
+          )}
+        </div>
+
+        {/* RIGHT SIDE IMAGE */}
+        <div className="flex-1">
+          <div className="rounded-xl shadow-lg overflow-hidden border border-gray-200">
+            <img
+              src="/images/hero-fabrics.jpeg"
+              alt="Premium Fabrics"
+              className="w-full h-80 object-cover"
+            />
+          </div>
+        </div>
+
+      </div>
+    </section>
+  );
+}
